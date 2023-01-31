@@ -11,4 +11,14 @@ public class EmpController {
         return "<h1>Hello User!!</h1>";
     }
 
+    @GetMapping("/admin")
+    public String getAdmin(){
+        return "<h1>Hello Admin!!</h1>";
+    }
+
+    @GetMapping("/home")
+    public String getHome(){
+        return "<h1>Welcome!!</h1>";
+    }
+
 }
